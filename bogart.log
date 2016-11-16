@@ -1,0 +1,1070 @@
+
+<< uci
+>> id name Bogart/06
+>> id author Dr.Kameleon
+>> option name OwnBook type check default true 
+>> uciok 
+<< isready
+>> readyok 
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1|
+
+>> Board :
+r n b q k b n r 
+p p p p p p p p 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+P P P P P P P P 
+R N B Q K B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1200000 btime 60000 winc 20000 binc 0
+>> bestmove b1c3
+>> BestMove :: b1c3 :: 109
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5|
+
+>> Board :
+r n b q k b n r 
+p p p . p p p p 
+. . . . . . . . 
+. . . p . . . . 
+. . . . . . . . 
+. . N . . . . . 
+P P P P P P P P 
+R . B Q K B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1200000 btime 59853 winc 20000 binc 0
+>> bestmove d2d4
+>> BestMove :: d2d4 :: 136
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6|
+
+>> Board :
+r n b q k b . r 
+p p p . p p p p 
+. . . . . n . . 
+. . . p . . . . 
+. . . P . . . . 
+. . N . . . . . 
+P P P . P P P P 
+R . B Q K B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1204563 btime 59705 winc 20000 binc 0
+>> bestmove d1d3
+>> BestMove :: d1d3 :: 131
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5|
+
+>> Board :
+r n b q k b . r 
+p p . . p p p p 
+. . . . . n . . 
+. . p p . . . . 
+. . . P . . . . 
+. . N Q . . . . 
+P P P . P P P P 
+R . B . K B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1159876 btime 59552 winc 20000 binc 0
+>> bestmove d4c5
+>> BestMove :: d4c5 :: 242
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6|
+
+>> Board :
+r . b q k b . r 
+p p . . p p p p 
+. . n . . n . . 
+. . P p . . . . 
+. . . . . . . . 
+. . N Q . . . . 
+P P P . P P P P 
+R . B . K B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1134181 btime 59424 winc 20000 binc 0
+>> bestmove c1g5
+>> BestMove :: c1g5 :: 236
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4|
+
+>> Board :
+r . b q k b . r 
+p p . . p p p p 
+. . n . . n . . 
+. . P . . . B . 
+. . . p . . . . 
+. . N Q . . . . 
+P P P . P P P P 
+R . . . K B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1066389 btime 58419 winc 20000 binc 0
+>> bestmove e1c1
+>> BestMove :: e1c1 :: 273
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3|
+
+>> Board :
+r . b q k b . r 
+p p . . p p p p 
+. . n . . n . . 
+. . P . . . B . 
+. . . . . . . . 
+. . p Q . . . . 
+P P P . P P P P 
+. . K R . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1044863 btime 57289 winc 20000 binc 0
+>> bestmove d3b5
+>> BestMove :: d3b5 :: 150
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5|
+
+>> Board :
+r . b . k b . r 
+p p . . p p p p 
+. . n . . n . . 
+q Q P . . . B . 
+. . . . . . . . 
+. . p . . . . . 
+P P P . P P P P 
+. . K R . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1020716 btime 56218 winc 20000 binc 0
+>> bestmove b5a5
+>> BestMove :: b5a5 :: 19
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2|
+
+>> Board :
+r . b . k b . r 
+p p . . p p p p 
+. . n . . n . . 
+Q . P . . . B . 
+. . . . . . . . 
+. . . . . . . . 
+P p P . P P P P 
+. . K R . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1019387 btime 55158 winc 20000 binc 0
+>> bestmove c1b2
+>> BestMove :: c1b2 :: 45
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5|
+
+>> Board :
+r . b . k b . r 
+p p . . p p p p 
+. . . . . n . . 
+n . P . . . B . 
+. . . . . . . . 
+. . . . . . . . 
+P K P . P P P P 
+. . . R . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 1013294 btime 54966 winc 20000 binc 0
+>> bestmove e2e4
+>> BestMove :: e2e4 :: -10
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4|
+
+>> Board :
+r . b . k b . r 
+p p . . p p p p 
+. . . . . . . . 
+n . P . . . B . 
+. . . . n . . . 
+. . . . . . . . 
+P K P . . P P P 
+. . . R . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 978266 btime 53635 winc 20000 binc 0
+>> bestmove g5e3
+>> BestMove :: g5e3 :: -93
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6|
+
+>> Board :
+r . b . k b . r 
+p p . . . p p p 
+. . . . p . . . 
+n . P . . . . . 
+. . . . n . . . 
+. . . . B . . . 
+P K P . . P P P 
+. . . R . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 927283 btime 52617 winc 20000 binc 0
+>> bestmove d1d4
+>> BestMove :: d1d4 :: -43
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5|
+
+>> Board :
+r . b . k b . r 
+p p . . . p p p 
+. . . . p . . . 
+n . n . . . . . 
+. . . R . . . . 
+. . . . B . . . 
+P K P . . P P P 
+. . . . . B N R 
+
+
+>> Playing :
+1
+
+<< go wtime 899080 btime 51574 winc 20000 binc 0
+>> bestmove g1f3
+>> BestMove :: g1f3 :: -96
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+Performing move : |g1f3|
+
+Performing move : |a5c6|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6|
+
+>> Board :
+r . b . k b . r 
+p p . . . p p p 
+. . n . p . . . 
+. . n . . . . . 
+. . . R . . . . 
+. . . . B N . . 
+P K P . . P P P 
+. . . . . B . R 
+
+
+>> Playing :
+1
+
+<< go wtime 834623 btime 50389 winc 20000 binc 0
+>> bestmove d4h4
+>> BestMove :: d4h4 :: -103
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+Performing move : |g1f3|
+
+Performing move : |a5c6|
+
+Performing move : |d4h4|
+
+Performing move : |f8e7|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7|
+
+>> Board :
+r . b . k . . r 
+p p . . b p p p 
+. . n . p . . . 
+. . n . . . . . 
+. . . . . . . R 
+. . . . B N . . 
+P K P . . P P P 
+. . . . . B . R 
+
+
+>> Playing :
+1
+
+<< go wtime 793243 btime 49384 winc 20000 binc 0
+>> bestmove h4c4
+>> BestMove :: h4c4 :: -131
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+Performing move : |g1f3|
+
+Performing move : |a5c6|
+
+Performing move : |d4h4|
+
+Performing move : |f8e7|
+
+Performing move : |h4c4|
+
+Performing move : |b7b6|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6|
+
+>> Board :
+r . b . k . . r 
+p . . . b p p p 
+. p n . p . . . 
+. . n . . . . . 
+. . R . . . . . 
+. . . . B N . . 
+P K P . . P P P 
+. . . . . B . R 
+
+
+>> Playing :
+1
+
+<< go wtime 750619 btime 48123 winc 20000 binc 0
+>> bestmove c4g4
+>> BestMove :: c4g4 :: -147
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 c4g4 e8g8 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+Performing move : |g1f3|
+
+Performing move : |a5c6|
+
+Performing move : |d4h4|
+
+Performing move : |f8e7|
+
+Performing move : |h4c4|
+
+Performing move : |b7b6|
+
+Performing move : |c4g4|
+
+Performing move : |e8g8|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 c4g4 e8g8|
+
+>> Board :
+r . b . . r k . 
+p . . . b p p p 
+. p n . p . . . 
+. . n . . . . . 
+. . . . . . R . 
+. . . . B N . . 
+P K P . . P P P 
+. . . . . B . R 
+
+
+>> Playing :
+1
+
+<< go wtime 678720 btime 46607 winc 20000 binc 0
+>> bestmove f1b5
+>> BestMove :: f1b5 :: -188
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 c4g4 e8g8 f1b5 c8b7 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+Performing move : |g1f3|
+
+Performing move : |a5c6|
+
+Performing move : |d4h4|
+
+Performing move : |f8e7|
+
+Performing move : |h4c4|
+
+Performing move : |b7b6|
+
+Performing move : |c4g4|
+
+Performing move : |e8g8|
+
+Performing move : |f1b5|
+
+Performing move : |c8b7|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 c4g4 e8g8 f1b5 c8b7|
+
+>> Board :
+r . . . . r k . 
+p b . . b p p p 
+. p n . p . . . 
+. B n . . . . . 
+. . . . . . R . 
+. . . . B N . . 
+P K P . . P P P 
+. . . . . . . R 
+
+
+>> Playing :
+1
+
+<< go wtime 613575 btime 45328 winc 20000 binc 0
+>> bestmove h1d1
+>> BestMove :: h1d1 :: -145
+<< position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 c4g4 e8g8 f1b5 c8b7 h1d1 a8d8 
+Performing move : |b1c3|
+
+Performing move : |d7d5|
+
+Performing move : |d2d4|
+
+Performing move : |g8f6|
+
+Performing move : |d1d3|
+
+Performing move : |c7c5|
+
+Performing move : |d4c5|
+
+Performing move : |b8c6|
+
+Performing move : |c1g5|
+
+Performing move : |d5d4|
+
+Performing move : |e1c1|
+
+Performing move : |d4c3|
+
+Performing move : |d3b5|
+
+Performing move : |d8a5|
+
+Performing move : |b5a5|
+
+Performing move : |c3b2|
+
+Performing move : |c1b2|
+
+Performing move : |c6a5|
+
+Performing move : |e2e4|
+
+Performing move : |f6e4|
+
+Performing move : |g5e3|
+
+Performing move : |e7e6|
+
+Performing move : |d1d4|
+
+Performing move : |e4c5|
+
+Performing move : |g1f3|
+
+Performing move : |a5c6|
+
+Performing move : |d4h4|
+
+Performing move : |f8e7|
+
+Performing move : |h4c4|
+
+Performing move : |b7b6|
+
+Performing move : |c4g4|
+
+Performing move : |e8g8|
+
+Performing move : |f1b5|
+
+Performing move : |c8b7|
+
+Performing move : |h1d1|
+
+Performing move : |a8d8|
+
+>> Got fen : |rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 moves b1c3 d7d5 d2d4 g8f6 d1d3 c7c5 d4c5 b8c6 c1g5 d5d4 e1c1 d4c3 d3b5 d8a5 b5a5 c3b2 c1b2 c6a5 e2e4 f6e4 g5e3 e7e6 d1d4 e4c5 g1f3 a5c6 d4h4 f8e7 h4c4 b7b6 c4g4 e8g8 f1b5 c8b7 h1d1 a8d8|
+
+>> Board :
+. . . r . r k . 
+p b . . b p p p 
+. p n . p . . . 
+. B n . . . . . 
+. . . . . . R . 
+. . . . B N . . 
+P K P . . P P P 
+. . . R . . . . 
+
+
+>> Playing :
+1
+
+<< go wtime 459331 btime 44051 winc 20000 binc 0
