@@ -2,4 +2,4 @@
 
 # bogart
 
-A Chess Engine experiment in D
+A Chess Engine experiment
