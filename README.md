@@ -1,5 +1,7 @@
-![Logo](graphics/logo.png)
+![Logo](graphics/logo2.png)
 
-# bogart
+---
 
 A Chess Engine experiment
+
+Copyright (c) 2009-2013 Dr.Kameleon
